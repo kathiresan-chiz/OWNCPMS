@@ -120,11 +120,11 @@ function LoginManagement() {
             <p className='mt-2'> username : manager@example.com</p>
           <p> password : Manager@123</p>
           </div>
-          {/* <span className='text-center'>Log In as TPO?
+          <span className='text-center'>Log In as TPO?
             <span className='text-blue-500 font-bold cursor-pointer px-1' onClick={() => navigate('../tpo/login')}>
               Click Here
             </span>
-          </span> */}
+          </span>
           <p className="text-muted text-center text-gray-400">© College Placement Management System 2026 - 27</p>
         </form>
       </div>

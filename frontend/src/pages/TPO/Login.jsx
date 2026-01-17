@@ -114,6 +114,9 @@ function LoginTPO() {
             >
               {isLoading ? 'Loading...' : 'Log In'}
             </Button>
+            <p className='mt-3 font-bold' > For testing purposes </p>
+            <p className='mt-2'> username : tpo@gmail.com</p>
+          <p> password : tpo123</p>
           </div>
           <span className='text-center'>Log In as Management?
             <span className='text-blue-500 font-bold cursor-pointer px-1' onClick={() => navigate('../management/login')}>

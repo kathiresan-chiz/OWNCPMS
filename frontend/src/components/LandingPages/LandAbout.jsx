@@ -12,12 +12,12 @@ function LandAbout() {
       description:
         "Students can register, explore job opportunities, apply for jobs, and track application status with a personalized dashboard.",
     },
-    // {
-    //   title: "TPO (Training & Placement Officer)",
-    //   image: TPO,
-    //   description:
-    //     "TPOs manage company data, job postings, application reviews, and generate insightful reports for placement tracking.",
-    // },
+    {
+      title: "TPO (Training & Placement Officer)",
+      image: TPO,
+      description:
+        "TPOs manage company data, job postings, application reviews, and generate insightful reports for placement tracking.",
+    },
     {
       title: "Management",
       image: Management,

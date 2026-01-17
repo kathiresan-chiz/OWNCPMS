@@ -5,7 +5,7 @@ function LandFooter() {
   const navigate = useNavigate();
 
   const loginLinks = [
-    // { label: 'Login as TPO', path: '/tpo/login' },
+    { label: 'Login as TPO', path: '/tpo/login' },
     { label: 'Login as Management', path: '/management/login' },
     { label: 'Login as Super Admin', path: '/admin' },
   ];
