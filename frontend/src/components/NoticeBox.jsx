@@ -95,7 +95,7 @@ function NoticeBox() {
         </div>
       ) : (
         <div className="relative h-72 overflow-hidden">
-          <div className="absolute bottom-0 w-full h-full animate-scrollUp">
+          <div className="absolute bottom-0 w-full h-full animate-scrollUpp">
             {noticesData?.length > 0 ? (
               noticesData.map((notice, index) => (
                 <div key={index} className="py-2 h-fit">

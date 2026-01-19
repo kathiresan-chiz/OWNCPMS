@@ -82,7 +82,7 @@ function NotificationBox() {
         ) : (
           <div className="relative h-72 overflow-hidden">
             {/* Wrapping the notices in a div that handles the animation */}
-            <div className="absolute bottom-0 w-full h-full animate-scrollUp">
+            <div className="absolute bottom-0 w-full h-full animate-scrollUpp">
               {jobs?.length > 0 ? (
                 jobs.map((job, index) => (
                   <div key={index} className="py-2 h-fit">

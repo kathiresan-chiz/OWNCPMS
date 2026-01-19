@@ -41,10 +41,10 @@ function LandingNavbar() {
 
   return (
     <header
-      className={`w-full z-50 transition-all duration-300 ease-in-out ${isScrolled ? 'backdrop-blur-md bg-white/60 shadow-md sticky top-0' : ''
+      className={`w-full z-50 transition-all duration-300 ease-in-out ${isScrolled ? 'backdrop-blur-md bg-white/60 shadow-md sticky py-3 top-0' : ''
         }`}
     >
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center py-3 px-4">
+      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center py-5 px-4">
         {/* Logo Section */}
         <div
           className="flex items-center max-md:gap-2 md:gap-4 cursor-pointer transition-transform hover:scale-105 duration-150"

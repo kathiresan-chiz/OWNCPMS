@@ -72,7 +72,7 @@ function NotificationBox() {
           </div>
         ) : (
           <div className="relative h-72 overflow-hidden">
-            <div className="absolute bottom-0 w-full flex flex-col gap-2 h-full animate-scrollUp">
+            <div className="absolute bottom-0 w-full flex flex-col gap-2 h-full animate-scrollUpp">
               {notify?.length > 0 ? (
                 notify.map((student, studentIndex) => (
                   <Link
