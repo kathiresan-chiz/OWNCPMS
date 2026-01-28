@@ -86,7 +86,7 @@ function NotificationBox() {
               {jobs?.length > 0 ? (
                 jobs.map((job, index) => (
                   <div key={index} className="py-2 h-fit">
-                    <Link
+                    <p
                       className='text-blue-500 hover:text-blue-700'
                       to={`/student/job/${job?._id}`}
                       target="_blank"
@@ -96,7 +96,7 @@ function NotificationBox() {
                       {(new Date() - new Date(job?.postedAt)) / (1000 * 60 * 60 * 24) <= 2 && (
                         <Badge className="mx-2" bg="primary">New</Badge>
                       )}
-                    </Link>
+                    </p>
                     <span className='no-underline mx-1 text-gray-400'>
                       {new Date(job?.postedAt).toLocaleDateString('en-IN') + " " + new Date(job?.postedAt).toLocaleTimeString('en-IN')}
                     </span>

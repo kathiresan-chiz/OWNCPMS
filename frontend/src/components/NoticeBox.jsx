@@ -99,7 +99,7 @@ function NoticeBox() {
             {noticesData?.length > 0 ? (
               noticesData.map((notice, index) => (
                 <div key={index} className="py-2 h-fit">
-                  <Link
+                  <p
                     className='text-blue-500 hover:text-blue-700'
                     to={
                       currentUser?.role === 'student'
@@ -117,7 +117,7 @@ function NoticeBox() {
                     {(new Date() - new Date(notice?.createdAt)) / (1000 * 60 * 60 * 24) <= 2 && (
                       <Badge className="mx-2" bg="primary">New</Badge>
                     )}
-                  </Link>
+                  </p>
                   <span className='no-underline mx-1 text-gray-400'>
                     {new Date(notice?.createdAt).toLocaleDateString('en-IN') + " " + new Date(notice?.createdAt).toLocaleTimeString('en-IN')}
                   </span>
