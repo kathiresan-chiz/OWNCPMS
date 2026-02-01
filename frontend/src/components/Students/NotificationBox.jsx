@@ -87,7 +87,7 @@ function NotificationBox() {
                 jobs.map((job, index) => (
                   <div key={index} className="py-2 h-fit">
                     <p
-                      className='text-blue-500 hover:text-blue-700'
+                      className='text-black-500 hover:text-black700'
                       to={`/student/job/${job?._id}`}
                       target="_blank"
                     >

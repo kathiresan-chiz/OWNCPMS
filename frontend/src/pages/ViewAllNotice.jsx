@@ -154,7 +154,7 @@ function ViewlAllNotice() {
                           {index + 1}
                         </td>
                         <td>
-                          <Link
+                          <p
                             to={
                               currentUser?.role === 'student'
                                 ? `/student/notice/${notice?._id}`
@@ -164,13 +164,13 @@ function ViewlAllNotice() {
                                     ? `/management/notice/${notice?._id}`
                                     : ''
                             }
-                            className='no-underline text-blue-500 hover:text-blue-700'
+                            className='no-underline text-black-500 hover:text-black-700'
                           >
                             {notice?.title}
                             {(new Date() - new Date(notice?.createdAt)) / (1000 * 60 * 60 * 24) <= 2 && (
                               <Badge className="mx-2" bg="primary">New</Badge>
                             )}
-                          </Link>
+                          </p>
                         </td>
                         {
                           currentUser?.role !== 'student' && (

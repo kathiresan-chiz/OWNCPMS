@@ -100,7 +100,7 @@ function NoticeBox() {
               noticesData.map((notice, index) => (
                 <div key={index} className="py-2 h-fit">
                   <p
-                    className='text-blue-500 hover:text-blue-700'
+                    className='text-black-500 hover:text-black-700'
                     to={
                       currentUser?.role === 'student'
                         ? `/student/notice/${notice?._id}`

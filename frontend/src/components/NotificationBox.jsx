@@ -76,7 +76,7 @@ function NotificationBox() {
               {notify?.length > 0 ? (
                 notify.map((student, studentIndex) => (
                   <Link
-                    className='no-underline text-blue-500 hover:text-blue-700'
+                    className='no-underline text-black-500 hover:text-black-700'
                     to={
                       currentUser?.role === 'tpo_admin' ? `/tpo/user/${student.id}`
                         : currentUser?.role === 'management_admin' && `/management/user/${student.id}`
