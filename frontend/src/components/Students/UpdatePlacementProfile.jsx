@@ -130,7 +130,7 @@ function UpdatePlacementProfile() {
       sum += Number(userData?.studentProfile?.SGPA?.sem8);
       sem += 1;
     }
-    setCgpa((sum / sem).toFixed(2));
+    setCgpa((sum / sem)/10);
   }
 
   return (
