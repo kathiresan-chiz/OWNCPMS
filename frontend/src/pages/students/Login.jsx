@@ -128,8 +128,8 @@ function Login() {
               {isLoading ? 'Loading...' : 'Log In'}
             </Button>
              <p className='mt-3 font-bold' > For testing purposes </p>
-            <p className='mt-2'> username : Manivasakam700@gmail.com</p>
-          <p> password : Mani@12345</p>
+            <p className='mt-2'> username : Martin700@gmail.com</p>
+          <p> password : Martin@12345</p>
           </div>
           <span className='text-center'>Don't have an account?
             <span className='text-blue-500 font-bold cursor-pointer px-1' onClick={() => navigate('../student/signup')}>
